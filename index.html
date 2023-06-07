@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai tap thuc hanh hien thi dau ra</title>
+</head>
+<body>
+<button type="button" onclick="showMessage();">Click me!</button>
+<div id="messageDiv"></div>
+<button type="button" onclick="changeMessage()">Click me!</button>
+<br>
+<button type="button" onclick="writerMessage()">Click me!</button>
+<br>
+<button type="button" onclick="displayMessage()">Click me!</button>
+</body>
+<script>
+  function showMessage(){
+    alert("xin chao!");
+  }
+  function changeMessage(){
+    document.getElementById("messageDiv").innerHTML = "xinchao :)";
+  }
+  function writerMessage(){
+    document.write("quang anh");
+  }
+  function displayMessage(){
+    console.log("quang huy");
+  }
+</script>
+</html>
